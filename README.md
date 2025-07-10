@@ -54,12 +54,24 @@ Interactive filters: City, Department, Procedure, Service Type.
 Designed for both high-level overviews and detailed drilldowns.
 
 📁 Project Structure
-bash
-PowerBI-Healthcare-Billing-Dashboard/
-├── Mayur_Healthcare_Analytics.pbix
-├── Screenshots/
-│   └── Healthcare_Billing_Dashboard
-└── README.md
+
+```bash
+📦 PowerBI-Healthcare-Billing-Dashboard
+├── 📊 HealthcareDashboard.pbix
+├── 📁 Screenshots/
+│   ├── MainDashboard.png
+├── 📄 README.md
+```
+
+---
+
+## 📷 Dashboard Snapshots
+
+### 🗺️ City-wise Billing Overview
+![City Billing](Screenshots/MainDashboard.png)
+
+---
+
 🔍 Key Insights & Takeaways
 X-Ray procedures account for 31% of total billing—the most used and billed procedure.
 
@@ -99,6 +111,5 @@ Dashboard UX with drill-throughs and dynamic slicers
 Domain expertise in healthcare finance and service analytics
 
 📬 Contact
-Email: mmeshram@umassd.edu
-
-LinkedIn: Mayur Meshram
+Email: mayurmeshram1297@gmail.com
+LinkedIn: https://www.linkedin.com/in/mayur-meshram9/
