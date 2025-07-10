@@ -70,16 +70,15 @@ To provide a centralized reporting solution that reveals key billing metrics, hi
 
 🔬 Procedure-Level Billing
 
-🔍 Key Insights & Takeaways
-X-Ray accounts for 31% of total billing—the most used and billed procedure
+## 🔍 Key Insights & Takeaways
 
-Cardiology alone contributes over 25% of all department-level billing
+- **X-Ray** contributed **31%** of total billing, making it the most billed procedure. This reflects heavy usage in diagnostics or imaging-based care.
+- **Cardiology** generated over **25%** of total departmental billing. High volume or high-cost cardiac procedures may be driving this.
+- **Out-of-Pocket costs** reached **$1.13M**, which is nearly 34% of total billing. This indicates potential gaps in insurance coverage or high deductibles.
+- **Birmingham, Manchester, and Edinburgh** emerged as top billing cities, suggesting larger hospitals or more critical care centers.
+- **Fracture & Asthma** cases were mainly treated under **emergency/inpatient** services, implying acute care demand.
+- **Migraine & Hypertension** were mostly **outpatient**, aligning with standard chronic care models.
 
-Out-of-pocket costs amount to over $1.13M—highlighting potential gaps in insurance coverage
-
-Cities like Birmingham and Manchester are high billing zones, suggesting a focus on patient load or facility scale
-
-Diagnosis patterns show Fracture and Asthma dominate emergency and inpatient services, while Migraine and Hypertension lean more outpatient
 
 🚀 Suggested Outcomes
 Optimize cost structures for high-volume procedures like X-Ray and CT Scan
