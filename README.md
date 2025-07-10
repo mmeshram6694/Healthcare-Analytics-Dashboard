@@ -1,93 +1,104 @@
-# 🏥 Healthcare Billing Analytics Dashboard – Power BI
+🏥 Healthcare Billing Analytics Dashboard – Power BI
+Welcome to the Healthcare Billing Analytics Dashboard project! This repository showcases how Power BI can transform complex healthcare billing data into actionable insights for hospital administrators, finance teams, and healthcare decision-makers.
 
-Welcome to my comprehensive **Healthcare Billing Analytics Dashboard** project where I leveraged **Power BI** to turn healthcare billing data into powerful, actionable insights. This dashboard is designed for hospital administrators, finance teams, and healthcare decision-makers to understand billing trends, department-wise costs, and patient service patterns.
+🎯 Project Objective
+Deliver a centralized, interactive reporting solution that reveals key billing metrics, highlights cost-intensive procedures and departments, and empowers healthcare stakeholders to enhance operational efficiency and patient care strategy.
 
----
+🌟 Project Highlights
+End-to-End ETL & Visualization: Complete pipeline from data ingestion and cleaning to interactive dashboards.
 
-## 🎯 Project Objective
+Interactive Map View: Assess city-wise billing trends and identify regional hotspots.
 
-To provide a centralized reporting solution that reveals key billing metrics, highlights cost-intensive procedures and departments, and empowers healthcare stakeholders to improve operational efficiency and patient care strategy.
+Comprehensive Cost Breakdown: Visualize billing by department, procedure, and diagnosis.
 
----
+Service Type Insights: Analyze Emergency, Inpatient, and Outpatient services using stacked visuals.
 
-## 🌟 Project Highlights
+Dynamic DAX KPIs: Track metrics such as Avg. Treatment Cost, % Share by Procedure, Avg. Insurance Coverage, and more.
 
-- Complete ETL-to-Visualization solution using Power BI
-- Interactive map view to assess city-wise billing trends
-- Department, procedure, and diagnosis-based cost breakdown
-- Service type insights (Emergency, Inpatient, Outpatient) via stacked visuals
-- Dynamic DAX measures for KPIs like Avg. Treatment Cost, % Share by Procedure, Avg. Insurance Coverage, and more
+🛠️ Tech Stack
+Power BI Desktop: Power Query for data cleaning, data modeling, and interactive visualizations.
 
----
+DAX: Advanced KPIs for % contribution, averages, and departmental billing logic.
 
-## 🛠️ Tech Stack Used
+Power BI Service (optional): For publishing and sharing dashboards with stakeholders.
 
-- **Power BI Desktop**: Power Query (data cleaning), data modeling, interactive visualizations
-- **DAX**: Advanced KPIs such as % Contribution, Averages, and Departmental Billing logic
-- **Power BI Service (optional)**: For publishing and sharing dashboards with stakeholders
+🔄 Project Workflow
+1. Data Ingestion & Cleaning
+Integrated data from multiple tables: Billing, Patients, Procedures, Departments, Diagnosis, Date.
 
----
+Addressed nulls, corrected mismatches, and standardized naming conventions.
 
-## 🔄 Project Workflow
+2. Data Modeling
+Designed a Star Schema:
 
-### 1. Data Ingestion & Cleaning
-- Handled data from multiple tables: `Billing`, `Patients`, `Procedures`, `Departments`, `Diagnosis`, `Date`
-- Cleaned nulls, corrected mismatches, standardized naming conventions
+Fact Table: Visits
 
-### 2. Data Modeling
-- Created a **Star Schema** with:
-  - Fact Table: `Visits`
-  - Dimension Tables: `Patients`, `Procedures`, `Departments`, `Diagnosis`, `Date`, `City`
+Dimension Tables: Patients, Procedures, Departments, Diagnosis, Date, City
 
-### 3. DAX-Driven KPI Development
-- Measures created for:
-  - Total Billing, Insurance, Medication, Treatment, Room Charges, Out-of-Pocket
-  - Averages per patient: Billing, Insurance, Treatment, Medication, Room Charges
-  - % Share by Department and Procedure
-  - Patient Satisfaction & Length of Stay (if available)
+3. KPI Development with DAX
+Created measures for:
 
-### 4. Dashboard Design
-- Used bar, stacked bar, map, and KPI cards
-- Interactive filters: by City, Department, Procedure, and Service Type
-- Designed for high-level overview and detailed drilldowns
+Total Billing, Insurance, Medication, Treatment, Room Charges, Out-of-Pocket
 
----
+Per-patient averages for Billing, Insurance, Treatment, Medication, Room Charges
 
-## 📁 Project Structure
+% Share by Department and Procedure
 
-```bash
-📦 PowerBI-Healthcare-Billing-Dashboard
-├── 📊 Mayur_Healthcare_Analytics.pbix
-├── 📁 Screenshots/
-│   ├── Healthcare_Billing_Dashboard
-├── 📄 README.md
+Patient Satisfaction & Length of Stay (if available)
 
----
+4. Dashboard Design
+Visuals: Bar, stacked bar, map, and KPI cards.
 
+Interactive filters: City, Department, Procedure, Service Type.
+
+Designed for both high-level overviews and detailed drilldowns.
+
+📁 Project Structure
+bash
+PowerBI-Healthcare-Billing-Dashboard/
+├── Mayur_Healthcare_Analytics.pbix
+├── Screenshots/
+│   └── Healthcare_Billing_Dashboard
+└── README.md
 🔍 Key Insights & Takeaways
-- X-Ray accounts for 31% of total billing—the most used and billed procedure
-- Cardiology alone contributes over 25% of all department-level billing
-- Out-of-pocket costs amount to over $1.13M—highlighting potential gaps in insurance coverage
-- Cities like Birmingham and Manchester are high billing zones, suggesting a focus on patient load or facility scale
-- Diagnosis patterns show Fracture and Asthma dominate emergency and inpatient services, while Migraine and Hypertension lean more outpatient
+X-Ray procedures account for 31% of total billing—the most used and billed procedure.
+
+Cardiology contributes over 25% of all department-level billing.
+
+Out-of-pocket costs exceed $1.13M, highlighting potential gaps in insurance coverage.
+
+Cities like Birmingham and Manchester are high billing zones, suggesting higher patient loads or larger facilities.
+
+Diagnosis patterns: Fracture and Asthma dominate emergency/inpatient services, while Migraine and Hypertension are more common in outpatient settings.
 
 🚀 Suggested Outcomes
-- Optimize cost structures for high-volume procedures like X-Ray and CT Scan
-- Evaluate insurance coverage policies and billing transparency for reducing out-of-pocket burden
-- Improve resource allocation in departments like Cardiology and Orthopedics
-- Regional management can use city-wise billing to plan expansions or streamline operations
+Optimize cost structures for high-volume procedures like X-Ray and CT Scan.
+
+Evaluate insurance coverage policies and improve billing transparency to reduce out-of-pocket burden.
+
+Enhance resource allocation in departments such as Cardiology and Orthopedics.
+
+Use city-wise billing data for strategic planning and operational streamlining.
 
 📌 Business Recommendations
-- Consider bundled care pricing models for high-cost procedures
-- Expand preventive outpatient programs for chronic conditions like hypertension
-- Enhance negotiation with insurers for better coverage on common inpatient treatments
-- Use patient satisfaction data (if captured) to align costs with outcomes
+Implement bundled care pricing models for high-cost procedures.
+
+Expand preventive outpatient programs for chronic conditions like hypertension.
+
+Negotiate with insurers for better coverage on common inpatient treatments.
+
+Align costs with outcomes using patient satisfaction data (if available).
 
 🧠 Skills Demonstrated
--🧩 Star schema design in Power BI
--🔢 Advanced DAX for KPIs and % breakdowns
-- 📊 Dashboard UX design with drill-throughs and dynamic slicers
-- 🩺 Domain understanding of healthcare finance and service patterns
-📬 Let’s Connect!
-📧 mmeshram@umassd.edu
-🔗 LinkedIn – Mayur Meshram
+Star schema design in Power BI
+
+Advanced DAX for KPIs and detailed breakdowns
+
+Dashboard UX with drill-throughs and dynamic slicers
+
+Domain expertise in healthcare finance and service analytics
+
+📬 Contact
+Email: mmeshram@umassd.edu
+
+LinkedIn: Mayur Meshram
