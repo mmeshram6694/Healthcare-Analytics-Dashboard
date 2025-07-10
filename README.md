@@ -62,6 +62,11 @@ To provide a centralized reporting solution that reveals key billing metrics, hi
 │   ├── Healthcare_Billing_Dashboard.png
 ├── 📄 README.md
 
+## 📷 Dashboard Snapshots
+
+### 📊 Main Dashboard Overview
+![Healthcare Dashboard](Screenshots/Healthcare_Billing_Dashboard.png)
+
 
 ## 🔍 Key Insights & Takeaways
 
