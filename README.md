@@ -59,16 +59,9 @@ To provide a centralized reporting solution that reveals key billing metrics, hi
 📦 PowerBI-Healthcare-Billing-Dashboard
 ├── 📊 HealthcareDashboard.pbix
 ├── 📁 Screenshots/
-│   ├── MainDashboard.png
-│   ├── Department_Insights.png
-│   └── Procedure_Breakdown.png
+│   ├── Healthcare_Billing_Dashboard.png
 ├── 📄 README.md
-📷 Dashboard Snapshots
-🗺️ City-wise Billing Overview
 
-🏥 Department Billing Breakdown
-
-🔬 Procedure-Level Billing
 
 ## 🔍 Key Insights & Takeaways
 
