@@ -65,7 +65,7 @@ To provide a centralized reporting solution that reveals key billing metrics, hi
 ## 📷 Dashboard Snapshots
 
 ### 📊 Main Dashboard Overview
-![Healthcare Dashboard](Screenshots/Healthcare_Billing_Dashboard.png)
+![HealthcareDashboard](Screenshot/Healthcare_Billing_Dashboard.png)
 
 
 ## 🔍 Key Insights & Takeaways
