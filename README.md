@@ -64,31 +64,30 @@ To provide a centralized reporting solution that reveals key billing metrics, hi
 
 ---
 
-## 🔍 Key Insights & Takeaways
+🔍 Key Insights & Takeaways
 - X-Ray accounts for 31% of total billing—the most used and billed procedure
 - Cardiology alone contributes over 25% of all department-level billing
 - Out-of-pocket costs amount to over $1.13M—highlighting potential gaps in insurance coverage
 - Cities like Birmingham and Manchester are high billing zones, suggesting a focus on patient load or facility scale
 - Diagnosis patterns show Fracture and Asthma dominate emergency and inpatient services, while Migraine and Hypertension lean more outpatient
 
-## 🚀 Suggested Outcomes
+🚀 Suggested Outcomes
 - Optimize cost structures for high-volume procedures like X-Ray and CT Scan
 - Evaluate insurance coverage policies and billing transparency for reducing out-of-pocket burden
 - Improve resource allocation in departments like Cardiology and Orthopedics
 - Regional management can use city-wise billing to plan expansions or streamline operations
 
-## 📌 Business Recommendations
+📌 Business Recommendations
 - Consider bundled care pricing models for high-cost procedures
 - Expand preventive outpatient programs for chronic conditions like hypertension
 - Enhance negotiation with insurers for better coverage on common inpatient treatments
 - Use patient satisfaction data (if captured) to align costs with outcomes
 
-## 🧠 Skills Demonstrated
+🧠 Skills Demonstrated
 -🧩 Star schema design in Power BI
 -🔢 Advanced DAX for KPIs and % breakdowns
 - 📊 Dashboard UX design with drill-throughs and dynamic slicers
 - 🩺 Domain understanding of healthcare finance and service patterns
-
-## 📬 Let’s Connect!
+📬 Let’s Connect!
 📧 mmeshram@umassd.edu
 🔗 LinkedIn – Mayur Meshram
