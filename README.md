@@ -58,7 +58,7 @@ To provide a centralized reporting solution that reveals key billing metrics, hi
 ```bash
 📦 PowerBI-Healthcare-Billing-Dashboard
 ├── 📊 HealthcareDashboard.pbix
-├── 📁 Screenshot/
+├── 📁 Screenshots/
 │   ├── Healthcare_Billing_Dashboard.png
 ├── 📄 README.md
 
@@ -66,12 +66,12 @@ To provide a centralized reporting solution that reveals key billing metrics, hi
 
 ## 📷 Dashboard Snapshots
 
-### 📊 Main Dashboard Overview
+**### 📊 Main Dashboard Overview**
 ![Healthcare Dashboard](Screenshots/Healthcare_Billing_Dashboard.png) 
 
 ---
 
-## 🔍 Key Insights & Takeaways
+**## **🔍 Key Insights & Takeaways
 
 - **X-Ray** contributed **31%** of total billing, making it the most billed procedure. This reflects heavy usage in diagnostics or imaging-based care.
 - **Cardiology** generated over **25%** of total departmental billing. High volume or high-cost cardiac procedures may be driving this.
