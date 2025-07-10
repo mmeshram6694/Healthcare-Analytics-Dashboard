@@ -58,7 +58,7 @@ To provide a centralized reporting solution that reveals key billing metrics, hi
 ```bash
 📦 PowerBI-Healthcare-Billing-Dashboard
 ├── 📊 HealthcareDashboard.pbix
-├── 📁 Screenshots/
+├── 📁 Screenshot/
 │   ├── Healthcare_Billing_Dashboard.png
 ├── 📄 README.md
 
